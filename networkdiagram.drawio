@@ -24,11 +24,11 @@
         <mxCell id="Ptr-ZtB1dvW62xrCnsy5-20" value="direction" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ptr-ZtB1dvW62xrCnsy5-18">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ptr-ZtB1dvW62xrCnsy5-21" value="local queue" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ptr-ZtB1dvW62xrCnsy5-18">
+        <mxCell id="Ptr-ZtB1dvW62xrCnsy5-21" value="local &lt;b&gt;Queue&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ptr-ZtB1dvW62xrCnsy5-18">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ptr-ZtB1dvW62xrCnsy5-34" value="position,&lt;div&gt;direction,&lt;/div&gt;&lt;div&gt;queue, completed hall-request ack&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="289" y="310" width="101" height="35" as="geometry" />
+          <mxGeometry x="280" y="312.5" width="101" height="35" as="geometry" />
         </mxCell>
         <mxCell id="Ptr-ZtB1dvW62xrCnsy5-35" value="Assigned hall request: Queueelement" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="312.5" width="69" height="30" as="geometry" />
@@ -63,13 +63,13 @@
             <mxPoint x="279" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ptr-ZtB1dvW62xrCnsy5-55" value="&lt;b&gt;Cab button elevator X&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="209" y="565" width="100" height="40" as="geometry" />
+        <mxCell id="Ptr-ZtB1dvW62xrCnsy5-55" value="&lt;b&gt;Cab buttons &lt;/b&gt;for elevator X" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="585" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ptr-ZtB1dvW62xrCnsy5-57" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="455" as="sourcePoint" />
-            <mxPoint x="390" y="455" as="targetPoint" />
+            <mxPoint x="388.5" y="440" as="sourcePoint" />
+            <mxPoint x="418.5" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ptr-ZtB1dvW62xrCnsy5-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ptr-ZtB1dvW62xrCnsy5-55">
@@ -84,10 +84,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ptr-ZtB1dvW62xrCnsy5-61" value="light control" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="259" y="515" width="60" height="30" as="geometry" />
+          <mxGeometry x="260" y="530" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ptr-ZtB1dvW62xrCnsy5-62" value="cab request: Queelement" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="129" y="525" width="90" height="30" as="geometry" />
+          <mxGeometry x="139" y="530" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ptr-ZtB1dvW62xrCnsy5-67" value="&lt;b&gt;Hall buttons&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="40" width="120" height="60" as="geometry" />
@@ -113,6 +113,39 @@
         </mxCell>
         <mxCell id="Ptr-ZtB1dvW62xrCnsy5-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ptr-ZtB1dvW62xrCnsy5-6" target="Ptr-ZtB1dvW62xrCnsy5-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptr-ZtB1dvW62xrCnsy5-81" value="&lt;b&gt;Timer&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="435" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptr-ZtB1dvW62xrCnsy5-85" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ptr-ZtB1dvW62xrCnsy5-81" target="Ptr-ZtB1dvW62xrCnsy5-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="340" as="sourcePoint" />
+            <mxPoint x="370" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ptr-ZtB1dvW62xrCnsy5-86" value="Timer starts when door opens, obstruction" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="410" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptr-ZtB1dvW62xrCnsy5-87" value="&lt;b&gt;Door &lt;/b&gt;for elevator X" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="580" width="109" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptr-ZtB1dvW62xrCnsy5-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ptr-ZtB1dvW62xrCnsy5-21" target="Ptr-ZtB1dvW62xrCnsy5-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptr-ZtB1dvW62xrCnsy5-93" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ptr-ZtB1dvW62xrCnsy5-87" target="Ptr-ZtB1dvW62xrCnsy5-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="350" as="sourcePoint" />
+            <mxPoint x="370" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="431" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ptr-ZtB1dvW62xrCnsy5-94" value="Obstruction" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="525" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ptr-ZtB1dvW62xrCnsy5-95" value="door&lt;div&gt;control&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="349" y="520" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
